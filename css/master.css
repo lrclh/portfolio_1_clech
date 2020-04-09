@@ -2,11 +2,21 @@ body {
   background-color: black;
 }
 
+#fond div {
+  width: 100%;
+  height: 350px;
+}
 
+#image_fond {
+  background-image: url("images/bandeau.png");
+  background-attachment:;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 section {
   border-top: 1px solid #d3D3D3;
-  min-height: 99vh;
+  min-height: 45vh;
 }
 .project-feature-container{
   max-width: 1280px;
